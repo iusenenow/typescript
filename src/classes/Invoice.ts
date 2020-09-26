@@ -1,5 +1,7 @@
+import { HasFormatter } from '../interfaces/HasFormatter'
+
 // classes
-export class Invoice {
+export class Invoice implements HasFormatter {
   // readonly client: string
   // private detail: string
   // public amount: number
