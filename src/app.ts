@@ -85,3 +85,8 @@ const docTwo: Resource<object> = {
 }
 
 console.log(docOne, docTwo)
+
+// tuples
+
+let student: [string, number]
+student = ['chun-li', 231452]
